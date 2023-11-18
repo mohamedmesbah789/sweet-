@@ -283,7 +283,7 @@ header{
     position: relative;
   }
   #menu .menu-items .menu-item span{
-    color: yellow;
+    color: #c90000;
     position: absolute ;
     top: 0;
     right: 0;
