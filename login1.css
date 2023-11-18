@@ -1,9 +1,14 @@
+header{
+    background: url(images/birthday-cake-bpyrqqxn43wgvser.jpg);
+    background-size: cover;
+    background-position:center ;
+    height: 100vh;
+}
 body{
     padding: 0;
     margin: 0;
     font-family: sans-serif;
-    background: url(images/birthday-cake-bpyrqqxn43wgvser.jpg);
-    background-size: cover;
+    
     text-transform: capitalize;
 }
 form{
@@ -19,35 +24,39 @@ form{
 }
 img[alt="User"]{
     position: absolute;
-    top: 20px;
+    top: -50px;
     left: 125px;
 }
-h2{
+h1{
     color: white;
     text-align: center;
-    margin-top: 110px;
+    margin-top: 60px;
+    font-size: 50px;
 }
 input{
     position: absolute;
     outline: none;
     border: none;
-    width: 250px;
+    width: 280px;
     height: 35px;
-    border-bottom: 2px solid #0094ff;
+    border: 1px solid gray;
+    border-radius: 15px;
     background: none;
-    padding: 5px;
+    padding: 10px;
     color: white;
+    font-size: 15px;
+    font-weight: bold;
 }
 input:hover{
-    border-bottom: 2px solid rgb(14, 212, 149);
+    border-bottom: 2px solid #0094ff;
 }
 input[type="text"]{
     top: 140px;
-    left: 50px;
+    left: 20px;
 }
 input[type="password"]{
     top: 210px;
-    left: 50px;
+    left: 20px;
 }
 ::placeholder{
     color: #ffffff9e;
@@ -105,6 +114,6 @@ span{
 }
 hr{
     position: relative;
-    top: 400px;
-    width: 90%;
+    top: 250px;
+    width: 80%;
 }
