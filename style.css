@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0 ;
+  padding: 0 ;
+  box-sizing: border-box ;
+  scroll-behavior: smooth ;
+}
+header{
+
+ width: 100% ;
+ position: absolute;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 10px 200px  ;
+ z-index: 999;
+ 
+
+  }
+  .header{
+    height: 100vh;
+  }
+  .navogation{
+    display: flex;
+    justify-content: center;
+ 
+
+  }
+
+  
+  .navogation a {
+    text-decoration: none;
+    color: white;
+    padding: 40px ;
+    font-size:1.1em;
+   font-weight: 500;
+
+  }
+  .navogation a:hover{
+   border-bottom: 3px solid orange;
+  }
+
+.main{
+   justify-content: center;
+    display: flex;
+  align-items: center;
+    flex-direction: column;
+    padding: 300px 300px ;
+    background:linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)) , url(images/Pink\ Modern\ Creative\ Cake\ Promotion\ Poster_20230914_152615_٠٠٠٠.png) no-repeat;
+    
+    background-position: center;
+    height: 100vh;
+    
+
+
+}
+
+.main h3{
+    color: yellow ;
+    font-size: 1.5em  ;
+    font-weight: bold;
+    margin: 10px ;
+    letter-spacing: 2px;
+    
+
+}
+ .main h1{
+    color: white ;
+    font-size: 1.9em  ;
+    font-weight: bold;
+    margin: 10px ;
+    word-spacing: 5px ;
+    
+
+}
+.main h2{
+    display: inline;
+    color: rgb(255, 255, 0);
+    font-size: 1.3em;
+    font-weight: 800 ;
+    word-spacing: 7px ;
+   
+
+}
+.main p span{
+    display: inline-block;
+    color: orangered;
+    font-size: 1.7em;
+    font-weight: 700;
+  }
+  .main-btn {
+    color:rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: .7em;
+    font-weight: bold;
+    display: inline-block;
+    padding: .9375em 2.1875em ;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin: 20px ;
+    margin-bottom: 40px;
+   transition: 1s ease;
+  
+  
+  }
+  .main-btn:hover{
+  color: white;
+  background-color:black;
+  transform: scale(1.1);
+  }
+  .section{
+    padding: 300px 300px ;
+  }
+  .title{
+    background-color: rgba(149, 200, 245, 0.663);
+    width: 100%;
+    color: rgb(red, green, blue) ;
+    
+    display: flex;
+    font-size: 2em ;
+    font-weight: bolder;
+    
+    padding: 10px ;
+    padding-left: 30px;
+    
+    font-family: serif;
+  }
+  .about{
+    background: url(images/back1.avif) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .abo{
+    display: flex ;
+    justify-content: center;
+  }
+ 
+  .card{
+    text-align: center;
+    padding: 20px ;
+    width: 33.25em;
+    margin: 70px ;
+    background-color: rgba(0, 0, 0, 0.777);
+    border-radius: 2px 105px ;
+    box-shadow: 10px 10px 20px rgb(1, 122, 122);
+    transition: 1s ease;
+
+  }
+  .card h3{
+    color: yellow ;
+    text-align: center;
+    padding: 30px ;
+    font-size: 1.7em;
+    font-weight: bold ;
+  }
+  .card p{
+    color: white;
+ text-align: center;
+ line-height: 50px ;
+ word-spacing: 3px ;
+ font-size: 1.2em;
+ font-weight: 400;
+ 
+  }
+  .card:hover{
+      transform: scale(.9);
+  }
+  .pro{
+    background-color: rgba(222, 190, 150, 0.762) ;
+  }
+  .product{
+    
+    padding: 20px;
+  
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px 40px;
+    
+    transition: 1s ease;
+  }
+  .product h3{
+   text-align: center;
+   margin: 20px;
+  }
+  .imgs{
+     margin: 40px ;
+    
+  
+  }
+  .img1{
+    padding: 10px ;
+    transition: 1s ease;
+  }
+  .img1:hover{
+    transform: scale(1.1);
+  }
+
+  .img3{
+    padding: 10px ;
+    transition: 1s ease;
+  }
+  .img3:hover{
+    transform: scale(1.1);
+  }
+  .img4{
+    padding: 10px ;
+    transition: 1s ease;
+  }
+  .img4:hover{
+    transform: scale(1.1);
+  }
+  .img5{
+    padding: 10px ;
+    transition: 1s ease;
+  }
+  .img5:hover{
+    transform: scale(1.1);
+  }
+  .img6{
+    padding: 10px ;
+    transition: 1s ease;
+  }
+  .img6:hover{
+    transform: scale(1.1);
+  }
+  .img7{
+    padding: 10px ;
+    transition: 1s ease;
+  }
+  .img7:hover{
+    transform: scale(1.1);
+  }
+  .img8{
+    padding: 10px ;
+    transition: 1s ease;
+  }
+  .img8:hover{
+    transform: scale(1.1);
+  }
+  .img9{
+    padding: 10px ;
+    transition: 1s ease;
+  }
+  .img9:hover{
+    transform: scale(1.1);
+  }
+  .img10{
+    padding: 10px ;
+    transition: 1s ease;
+  }
+  .img10:hover{
+    transform: scale(1.1);
+  }
+  .img11{
+    padding: 10px ;
+    transition: 1s ease;
+  }
+  .img11:hover{
+    transform: scale(1.1);
+  }
+  /*menu start*/
+  #menu .menu-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #menu .menu-items .menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+  }
+  #menu .menu-items .menu-item img{
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  #menu .menu-items .menu-item h3{
+    color: #383838;
+    border-bottom: 1px dashed rgb(94, 94, 95) ;
+    padding-bottom: 10px ;
+    position: relative;
+  }
+  #menu .menu-items .menu-item span{
+    color: yellow;
+    position: absolute ;
+    top: 0;
+    right: 0;
+  }
+  #menu .menu-items .menu-item p{
+    margin-top: 10px;
+  }
+
+  /* menu end */
+  .Contact{
+    background: url(images/back1.avif) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+
+ .cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .input{
+  color: rgb(239, 239, 239);
+  font-size: 1.1em;
+  font-weight: bold;
+  padding: 50px ;
+  margin: 50px ;
+  width: 30em ;
+ 
+  display: flex ;
+  flex-direction: column;
+ }
+ .input h3{
+  color: black ;
+  margin: 20px ;
+  background-color: aliceblue;
+  border-radius: 20px 40px ;
+  padding: 5px ;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: 700;
+
+ }
+ 
+ .cardss{
+  margin: 20px ;
+  padding: 30px ;
+  width: 15.25em;
+  height: 15em ;
+  background-color:aliceblue;
+  text-align: center;
+  border-radius: 20px 40px ;
+  transition: 1s ease;
+ }
+ .cardss:hover{
+transform: scale(1.1);
+ 
+ }
+ .link1{
+  color: black;
+  font-size: .9em;
+  font-weight: bold;
+  text-decoration: none ;
+  text-align: center;
+  background-color:aliceblue ;
+  padding: 10px;
+  border-radius: 20px 40px;
+ }
+ 
+ .cardss img{
+ 
+  font-size: 5em;
+  text-align: center;
+}
+.info{
+  text-align: center;
+  padding: 10px ;
+}
+.info h3{
+margin: 10px;
+letter-spacing: 2px ;
+}
+ 
+.info p{
+  letter-spacing: 3px;
+  font-size: 1.1em;
+}
+.link{
+  text-decoration: none ;
+  font-size: 1.1em ;
+  color: black;
+}
+ 
+ 
+ 
+ 
+ 
+
+
